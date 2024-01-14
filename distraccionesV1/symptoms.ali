@@ -1,0 +1,81 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvnrnnvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U symptoms%b		symptoms.adb		01DB30D0 PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W tools%s		tools.adb		tools.ali
+
+U symptoms%s		symptoms.ads		66C33EE2 PK IL
+W system%s		system.ads		system.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D symptoms.ads		20231109122207 66C33EE2
+D symptoms.adb		20231122164149 4696761D
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20191007063732 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+X 1 ada.ads
+18U9*Ada 16|5r6 5r25
+X 5 a-reatim.ads
+43U13*Real_Time 16|5r10 5r29
+89U13*Milliseconds 16|13r24 19r24 25r24 31r24 37r24 43r24
+X 15 symptoms.ads
+4U9*symptoms 16|7b14
+6E6*TipoDistancia 17r16 16|23r34 41r36 15|12r34 15r36
+6N24*SEGURA 17r33
+6N32*INSEGURA
+6N42*IMPRUDENTE
+6N54*COLISION
+8w11*Datos
+10U14 GetVolantazo 16|11b14
+11U14 GetCabezaInclinada 16|17b14
+12U14 GetDistancia 16|23b14
+13U15 SetVolantazo 16|29b15
+13e29 Vol 16|29b29 32r22
+14U15 SetCabezaInclinada 16|35b15
+14e34 Cabeza 16|35b34 38r28
+15U15 SetDistancia 16|41b15
+15e29 Dist 16|41b29 44r22
+17e5 Distancia 16|26r16 44r9
+18e5 Volantazo 16|14r16 32r9
+19e5 CabezaInclinada 16|20r16 38r9
+X 35 tools.ads
+6U9*tools 16|4r6 4r17
+15U15*Execution_Time 16|13r9 19r9 25r9 31r9 37r9 43r9
+
